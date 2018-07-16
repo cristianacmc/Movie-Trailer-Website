@@ -1,10 +1,9 @@
 import media
-#media contains the class Movie that will be used to create the instances. 
+# Calls the media.py that contains the class Movie that will be used to create the instances.
 import fresh_tomatoes
 
-     
-#creating instances of the class Movie amd passing the values for instances_variables.
-forrest_gump = media.Movie("Forrest Gump",                        
+
+forrest_gump = media.Movie("Forrest Gump",
                          "A story of an extraordinary man that never forgot his childhood love",
                          "http://static.tvtropes.org/pmwiki/pub/images/Forrest_Gump_on_a_bench_4829.jpg",
                          "https://www.youtube.com/watch?v=bLvqoHBptjg")
@@ -30,7 +29,7 @@ constantine = media.Movie("Constantine",
                           "A suicide survivor that had been to hell and back",
                           "http://www.gstatic.com/tv/thumb/movieposters/35545/p35545_p_v8_ad.jpg",
                           "https://www.youtube.com/watch?v=DEa508Xmmio")
- 
+
 Inception = media.Movie("Inception",
                         "A thief with the ability to enter people's dreams and steal their secrets",
                         "https://s-media-cache-ak0.pinimg.com/736x/ff/39/f4/ff39f498bc72f9368a92630b680c195b--minion-movie-minions-despicable-me.jpg",
@@ -38,8 +37,8 @@ Inception = media.Movie("Inception",
 
 
 movies = [forrest_gump, great_gatsby, sword_fish, black_hawk, constantine, Inception]
-#list with all movies created.
+# List of movie instances.
 fresh_tomatoes.open_movies_page(movies)
-#open a webpage that showcases the movies.
+# Open browser and shows the list movies.
 
 
