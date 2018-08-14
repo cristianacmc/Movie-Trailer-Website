@@ -1,4 +1,6 @@
+
 # Project: Movie Trailer Website
+=======
 
 This is the first project of the Udacity Full Stack Web Developer Nanodegree.
 A python program that creates a website that shows my favorite movies along with its respective **box art imagery** and **movie trailer**.
